@@ -61,4 +61,4 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
-gem 'iruiz_view_tool', git: 'https://github.com/hendrix01/iruiz_view_tool'
+gem 'iruiz_view_tool', '~> 0.1.0'
