@@ -86,8 +86,6 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.10.0)
-      activesupport (>= 5.0.0)
     iruiz_view_tool (0.1.0)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
@@ -142,10 +140,6 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
-    puma (4.3.3)
-      nio4r (~> 2.0)
-    puma (4.3.3-java)
-      nio4r (~> 2.0)
     puma (3.12.4)
     puma (3.12.4-java)
     rack (2.2.2)
@@ -194,6 +188,18 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    sassc (2.2.1)
+      ffi (~> 1.9)
+    sassc (2.2.1-x64-mingw32)
+      ffi (~> 1.9)
+    sassc (2.2.1-x86-mingw32)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     spoon (0.0.6)
       ffi
     spring (2.1.0)
@@ -242,12 +248,16 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
+  bootstrap (~> 4.3.1)
   byebug
   coffee-rails (~> 4.2)
-  devise (~> 4.5)
+  devise (~> 4.7)
   friendly_id (~> 5.2.0)
+  iruiz_view_tool (~> 0.1.0)
   jbuilder (~> 2.5)
+  jquery-rails
   listen (>= 3.0.5, < 3.2)
+  mini_racer
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 3.11)
