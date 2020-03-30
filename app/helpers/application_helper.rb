@@ -16,4 +16,8 @@ module ApplicationHelper
     	end 
 		
 	end
+
+	def copyright_generator
+		IruizViewTool::Renderer.copyright 'Ivan Ruiz', 'All rights reserved'
+	end
 end
