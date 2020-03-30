@@ -57,18 +57,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
-<<<<<<< HEAD
-<<<<<<< HEAD
 gem 'devise', '~> 4.7'
-=======
-=======
->>>>>>> e55f9b77916d43f79cbfff1919a617192eba7077
 gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
 gem 'iruiz_view_tool', '~> 0.1.0'
-<<<<<<< HEAD
->>>>>>> rubygem
-=======
->>>>>>> e55f9b77916d43f79cbfff1919a617192eba7077
+
