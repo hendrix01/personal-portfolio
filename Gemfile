@@ -64,3 +64,7 @@ gem 'jquery-rails'
 gem 'iruiz_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 
+
+gem "activesupport", ">= 5.2.4.3"
+gem "actionpack", ">= 5.2.4.3"
+gem "activestorage", ">= 5.2.4.3"
